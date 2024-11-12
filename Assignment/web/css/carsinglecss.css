@@ -1,0 +1,140 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 2, 2024, 3:25:02 PM
+    Author     : ADMIN
+*/
+
+.car-list {
+                max-width: 100%;
+                overflow: hidden;
+            }
+
+            .table {
+                width: 100%;
+                table-layout: auto; /* ??m b?o b?ng có th? co l?i */
+            }
+
+            .table th, .table td {
+                padding: 10px;
+                text-align: center;
+                word-wrap: break-word; /* ??m b?o ch? không b? tràn */
+            }
+
+            .heading {
+                white-space: nowrap; /* ??m b?o tiêu ?? không b? c?t */
+            }
+
+            .btn-custom {
+                display: flex;
+                justify-content: center;
+            }
+
+
+
+
+            .detail td span {
+                color: black;
+            }
+            .table-container {
+                width: 100%;
+                overflow-x: auto; /* Cho phép cuộn ngang nếu bảng quá rộng */
+            }
+
+            .detail {
+                width: 100%;
+                border-collapse: collapse; /* Xóa khoảng cách giữa các ô của bảng */
+            }
+
+            .detail th, .detail td {
+                border: 1px solid #ddd; /* Thêm đường viền cho bảng */
+                padding: 8px; /* Thêm khoảng cách bên trong ô */
+                text-align: left; /* Canh lề văn bản trong ô */
+            }
+
+            .detail th {
+                background-color: #f2f2f2; /* Màu nền cho tiêu đề bảng */
+                text-align: center; /* Canh lề tiêu đề bảng */
+            }
+            .table-container {
+                width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử chứa */
+                overflow-x: auto; /* Cho phép cuộn ngang nếu bảng rộng hơn phần tử chứa */
+            }
+
+            .table {
+                width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của phần tử chứa */
+                table-layout: fixed; /* Đảm bảo các cột có kích thước bằng nhau */
+            }
+
+            .table th, .table td {
+                padding: 8px; /* Thêm khoảng cách bên trong ô */
+                text-align: center; /* Căn lề văn bản trong ô */
+                border: 1px solid #ddd; /* Thêm đường viền cho bảng */
+                box-sizing: border-box; /* Đảm bảo padding và border không làm bảng bị rộng thêm */
+            }
+
+            .table th {
+                background-color: #f2f2f2; /* Màu nền cho tiêu đề bảng */
+                color: white; /* Màu chữ cho tiêu đề bảng */
+            }
+
+            .table .bg-primary {
+                background-color: #007bff; /* Màu nền cho cột Per Hour Rate */
+                color: white; /* Màu chữ cho cột Per Hour Rate */
+            }
+
+            .table .bg-dark {
+                background-color: #343a40; /* Màu nền cho cột Per Day Rate */
+                color: white; /* Màu chữ cho cột Per Day Rate */
+            }
+
+            .table .bg-black {
+                background-color: #000; /* Màu nền cho cột Leasing */
+                color: white; /* Màu chữ cho cột Leasing */
+            }
+            .num{
+                color: #0061f2
+            }
+            /* Đảm bảo phần tử chứa chiếm toàn bộ chiều rộng của phần tử cha */
+            .row {
+                margin: 0;
+            }
+
+            .col-md-10 {
+                padding: 0;
+            }
+
+            /* Car details container */
+            .car-details {
+                position: relative; /* Để các phần tử con có thể được định vị */
+                width: 100%; /* Đảm bảo phần tử chiếm toàn bộ chiều rộng của phần tử chứa */
+                border: 2px solid #ddd; /* Border cho phần tử chứa ảnh */
+                border-radius: 8px; /* Bo tròn các góc của border */
+                overflow: hidden; /* Đảm bảo không có phần nào của ảnh nền bị tràn ra ngoài phần tử */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            /* Ảnh nền */
+            .img {
+                background-size: cover; /* Đảm bảo ảnh nền phủ đầy phần tử */
+                background-position: center; /* Căn giữa ảnh nền */
+                height: 300px; /* Đặt chiều cao cụ thể cho ảnh nền, có thể điều chỉnh theo nhu cầu */
+            }
+
+            /* Nội dung văn bản */
+            .text {
+                padding: 20px; /* Thêm khoảng cách bên trong phần tử văn bản */
+            }
+
+            .text .subheading {
+                display: block;
+                font-size: 1.2em; /* Kích thước chữ cho subheading */
+                margin-bottom: 10px; /* Khoảng cách dưới subheading */
+            }
+
+            .text h2 {
+                margin: 0; /* Xóa khoảng cách mặc định của thẻ h2 */
+                font-size: 2em; /* Kích thước chữ cho tiêu đề */
+            }
